@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <title>Candy Shop</title>
+    <link rel="stylesheet" href="./css/candy-shop.css" />
+    <body>
+        <div id="candy-shop">
+            <h1 rv-text="data.title"></h1>
+            <ul>
+                <li rv-each-product="data.products">
+                    <span rv-text="product.name"></span>
+                    <span rv-text="product.price | price"></span>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript" src="./js/rivets.min.js"></script>
+        <script type="text/javascript" src="./js/candy-shop.js"></script>
+    </body>
+</html>
