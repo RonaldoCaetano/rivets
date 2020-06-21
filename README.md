@@ -1,2 +1,2 @@
-# Rivtes
+# Rivets
 Just a few exercises using Rivets library
