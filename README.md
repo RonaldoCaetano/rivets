@@ -1,2 +1,2 @@
-# rivets
-Just a few exercises about Rivets
+# Rivtes
+Just a few exercises using Rivets library
